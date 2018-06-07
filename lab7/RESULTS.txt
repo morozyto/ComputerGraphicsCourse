@@ -1,0 +1,10 @@
+Name of test                             |   FPS (average state of 200 frames)
+----------------------------------------------------------------------
+Without changes                          |    1 820
+Use less points                          |    6 200
+Delete glTexture* calls                  |    2 000
+Using ...v() (vectors instead of vars)   |    2 500
+Delete all light and normal calls        |    2 350
+DisplayList                              |  100 000
+ArrayLists                               |    6 000
+Use GL_TRIANGLE_STRIP, GL_TRIANGLE_FAN   |    3 500

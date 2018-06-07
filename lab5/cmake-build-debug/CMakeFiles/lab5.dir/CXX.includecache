@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tony/CLionProjects/lab5/Figure.cpp
+Figure.h
+/Users/tony/CLionProjects/lab5/Figure.h
+
+/Users/tony/CLionProjects/lab5/Figure.h
+vector
+-
+GLFW/glfw3.h
+-
+cmath
+-
+Point.h
+/Users/tony/CLionProjects/lab5/Point.h
+iostream
+-
+
+/Users/tony/CLionProjects/lab5/Point.cpp
+Point.h
+/Users/tony/CLionProjects/lab5/Point.h
+
+/Users/tony/CLionProjects/lab5/Point.h
+cmath
+-
+
+/Users/tony/CLionProjects/lab5/main.cpp
+cstdio
+-
+cstdlib
+-
+iostream
+-
+Figure.h
+/Users/tony/CLionProjects/lab5/Figure.h
+

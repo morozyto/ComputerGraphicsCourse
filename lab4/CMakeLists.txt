@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.8)
+project(lab4)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -framework OpenGl")
+set(CMAKE_CXX_STANDARD 11)
+set(GLFW_USE_CHDIR)
+set(GLFW_USE_MENUBAR)
+set(GLFW_USE_RETINA)
+set(SOURCE_FILES main.cpp Pixel.cpp Pixel.h MyBuffer.cpp MyBuffer.h Bresenhem.h Filter.h)
+add_executable(lab4 ${SOURCE_FILES})
+target_link_libraries(lab4 GLEW GLFW)
+

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11 -framework OpenGl -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/lab5.dir/main.cpp.o CMakeFiles/lab5.dir/Figure.cpp.o CMakeFiles/lab5.dir/Point.cpp.o  -o lab5 -lGLEW -lGLFW 
